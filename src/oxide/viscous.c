@@ -12,11 +12,11 @@
 #include "global.h"
 #include "constant.h"
 #include "geom.h"
-#undef EXTERN
-#define EXTERN			/* FEgeom isn't included in main.c */
+//#undef EXTERN
+//#define EXTERN			/* FEgeom isn't included in main.c */
 #include "FEgeom.h"
-#undef EXTERN
-#define EXTERN extern
+//#undef EXTERN
+//#define EXTERN extern
 #include "material.h"
 #include "FEmath.h"
 #include <assert.h>

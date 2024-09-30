@@ -51,7 +51,7 @@ int   uedge[MAXMAT][MAXBNDS];			/* User regions */
 int   umattyp[MAXMAT];				/* Groan */
 int   nur;					/* Number of user regions */
 int   nuj;					/* Number of user edges */
-double mr = 1.5;				/* The min ratio parameter*/
+//double mr = 1.5;				/* The min ratio parameter*/
 int   rect_err;
 
 char XY[]="xyz";

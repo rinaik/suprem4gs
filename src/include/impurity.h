@@ -138,7 +138,7 @@ EXTERN struct imp_str impur[MAXIMP];
 EXTERN int n_imp;
 
 /*structure for the parameters to be passed to the boundary code routine*/
-struct bound_str {
+EXTERN struct bound_str {
     int nx[2];			/*the node numbers involved*/
     double delta;		/*timestep*/
     float temp; 		/*temperature*/

@@ -13,7 +13,7 @@ char *xlab, *ylab, *tlab;
 int mv;
 
 float xscl, yscl;
-float xmax, xmin, ymax, ymin;
+extern float xmax, xmin, ymax, ymin;
 int axis_done;
 int cur_line;
 int line_type;
